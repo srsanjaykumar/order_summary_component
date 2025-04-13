@@ -123,3 +123,55 @@ button {
 button:hover {
   background-color: hsl(245, 75%, 62%);
 }
+
+@media (max-width: 400px) {
+  body {
+    background: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+  }
+  .container {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  .text h1 {
+    font-size: 1.2rem;
+  }
+  .text p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 370px) {
+
+  .text h1 {
+    font-size: 1.1rem;
+  }
+  .text p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 350px) {
+  .text h1 {
+    font-size: 1rem;
+  }
+  .text p {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 300px) {
+  .text h1 {
+    font-size: 0.9rem;
+  }
+  .text p {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 250px) {
+  .text h1 {
+    font-size: 0.8rem;
+  }
+  .text p {
+    font-size: 0.5rem;
+  }
+}
